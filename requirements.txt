@@ -1,6 +1,6 @@
 flask
 yfinance
-pandas_ta
+pandas
+pandas_ta==0.3.14b0
 requests
 pytz
-pandas

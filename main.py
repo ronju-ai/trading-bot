@@ -11,11 +11,11 @@ app = Flask('')
 @app.route('/')
 def home(): return "SureShot Alpha Bot is Active"
 
-# আপনার সঠিক তথ্য
+# টেলিগ্রামের তথ্য
 BOT_TOKEN = "8544115249:AAF0x33M2EcojgKjrRdTCV4eFpeoaZjT0Lo"
 CHAT_ID = "8325386840"
 
-# রিয়েল মার্কেট পেয়ার
+# কারেন্সি পেয়ার
 PAIRS = ["EURUSD=X", "GBPUSD=X", "USDJPY=X", "AUDUSD=X", "USDCAD=X", "EURJPY=X", "GBPJPY=X"]
 BD_TIMEZONE = pytz.timezone('Asia/Dhaka')
 

@@ -1,0 +1,6 @@
+flask
+yfinance
+pandas_ta
+requests
+pytz
+pandas
